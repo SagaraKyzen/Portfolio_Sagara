@@ -1,13 +1,20 @@
 import React from "react";
+import "./stars.scss";
 import imageOverlay from "../img/earth.jpg";
 
 class Contact extends React.Component {
   render() {
     return (
       <section
-        className="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: "url(" + imageOverlay + ")" }}
+        className="footer-paralax bg-image sect-mt4 route" // hapus paralax-mf jika memberi efek biru
+        style={{
+          backgroundImage: "url(" + imageOverlay + ")",
+          backgroundColor: "transparent",
+        }} // pastikan backgroundColor transparan
       >
+        <div id="stars" />
+        <div id="stars2" />
+        <div id="stars3" />
         <div className="overlay-mf"></div>
         <div className="container">
           <div className="row">
@@ -163,8 +170,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>
