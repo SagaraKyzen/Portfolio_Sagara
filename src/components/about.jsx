@@ -9,7 +9,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "My name is Moechamad Rizky Sagara, but I usually go by Rizky or Sagara. I am currently 23 years old and live in Cimahi City.",
+            "My name is Moechamad Rizky Sagara, I am commonly known as Rizky or Sagara. I am 23 years old and currently reside in Cimahi City.",
         },
         {
           id: "second-p-about",
@@ -93,30 +93,41 @@ class About extends React.Component {
                           </div>
                           <div className="col-auto">
                             <img
-                              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                              alt="MongoDB"
-                              title="MongoDB"
+                              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                              alt="PHP"
+                              title="PHP"
                               style={{ width: 40, margin: 8 }}
                             />
                           </div>
                           <div className="col-auto">
                             <img
-                              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                              alt="Express"
-                              title="Express"
-                              style={{
-                                width: 40,
-                                margin: 8,
-                                background: "#fff",
-                                borderRadius: 5,
-                              }}
+                              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                              alt="MySQL"
+                              title="MySQL"
+                              style={{ width: 40, margin: 8 }}
                             />
                           </div>
                           <div className="col-auto">
                             <img
-                              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                              alt="NodeJS"
-                              title="NodeJS"
+                              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg"
+                              alt="CodeIgniter"
+                              title="CodeIgniter"
+                              style={{ width: 40, margin: 8 }}
+                            />
+                          </div>
+                          <div className="col-auto">
+                            <img
+                              src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
+                              alt="Tailwind CSS"
+                              title="Tailwind CSS"
+                              style={{ width: 40, margin: 8, marginTop: 20 }}
+                            />
+                          </div>
+                          <div className="col-auto">
+                            <img
+                              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
+                              alt="Canva"
+                              title="Canva"
                               style={{ width: 40, margin: 8 }}
                             />
                           </div>

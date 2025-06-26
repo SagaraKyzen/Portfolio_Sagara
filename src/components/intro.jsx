@@ -40,13 +40,13 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-              <p className="pt-3">
+               <p className="pt-3">
                 <a
                   className="btn btn-primary btn js-scroll px-4"
                   href="#work"
                   role="button"
                 >
-                  View My Work
+                  View My Portfolio
                 </a>
               </p>
             </div>

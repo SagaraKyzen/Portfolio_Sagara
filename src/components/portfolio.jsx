@@ -1,10 +1,10 @@
 import React from "react";
 
 //import stock
-import stock from "../img/image1.jpg";
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
+import stock from "../img/image1.png";
+import stock1 from "../img/image2.png";
+import stock2 from "../img/image3.png";
+import stock3 from "../img/image3.png";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 
@@ -19,8 +19,7 @@ class Portfolio extends React.Component {
                 <div className="title-box text-center">
                   <h3 className="title-a">Portfolio</h3>
                   <p className="subtitle-a">
-                    Incididunt nostrud id aute culpa excepteur pariatur consequat
-                    elit culpa nulla enim anim incididunt.
+                    A curated collection of my works, showcasing my experience, skills, and creative projects in the fields of programming, graphic design, and IT development.
                   </p>
                   <div className="line-mf"></div>
                 </div>
@@ -36,10 +35,10 @@ class Portfolio extends React.Component {
                     <div className="work-content">
                       <div className="row">
                         <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
+                          <h2 className="w-title">OLaundry</h2>
                           <div className="w-more">
                             <span className="w-ctegory">
-                              HTML5 CSS3 Bootstrap ReactJS
+                              HTML5 CSS3 Bootstrap CodeIgniter
                             </span>
                           </div>
                         </div>
@@ -90,18 +89,17 @@ class Portfolio extends React.Component {
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock} data-lightbox="gallery-aguadeluz">
+                  <a href={stock1} data-lightbox="gallery-aguadeluz">
                     <div className="work-img">
-                      <img src={stock} alt="" className="img-fluid" />
+                      <img src={stock1} alt="" className="img-fluid" />
                     </div>
                     <div className="work-content">
                       <div className="row">
                         <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
+                          <h2 className="w-title">Odoo ERP Training</h2>
                           <div className="w-more">
                             <span className="w-ctegory">
-                              HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                              VanillaJS
+                              HTML5 CSS3 XML Odoo10 
                             </span>{" "}
                           </div>
                         </div>
@@ -152,17 +150,17 @@ class Portfolio extends React.Component {
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock} data-lightbox="gallery-todo">
+                  <a href={stock3} data-lightbox="gallery-todo">
                     <div className="work-img">
-                      <img src={stock} alt="" className="img-fluid" />
+                      <img src={stock3} alt="" className="img-fluid" />
                     </div>
                     <div className="work-content">
                       <div className="row">
                         <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
+                          <h2 className="w-title">System Utilization</h2>
                           <div className="w-more">
                             <span className="w-ctegory">
-                              HTML5 CSS3 Bootstrap Webpack ReactJS
+                              Microsoft Excel
                             </span>
                             {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                           </div>
