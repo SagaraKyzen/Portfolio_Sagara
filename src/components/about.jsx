@@ -152,6 +152,98 @@ class About extends React.Component {
             </div>
           </div>
         </section>
+        {/* EXPERIENCE SECTION */}
+        <section className="experience-mf sect-pt4">
+          <div className="container">
+            <div className="title-box-2 text-center">
+              <h5 className="title-left" style={{ letterSpacing: 2, color: '#fff' }}>EXPERIENCE</h5>
+            </div>
+            <div className="timeline-modern">
+              {/* Item kiri */}
+              <div className="timeline-modern-item left">
+                <div className="timeline-modern-content">
+                  <div className="timeline-modern-date">2019 April - Sept</div>
+                  <div className="timeline-modern-title">INDUSTRIAL WORK PRACTICES</div>
+                  <div className="timeline-modern-company">PT. Techno Multi Utama & CV. Blessing</div>
+                  <div>Jl.Pesantren No.76,Cibabat & Jl Setra Duta K13 A</div>
+                  <div className="timeline-modern-skills">
+                    <span className="timeline-modern-skill">Administration</span>
+                    <span className="timeline-modern-skill">IT Support</span>
+                  </div>
+                </div>
+                <div className="timeline-modern-icon">
+                  <i className="fa fa-briefcase"></i>
+                </div>
+              </div>
+              {/* Item kanan */}
+              <div className="timeline-modern-item right">
+                <div className="timeline-modern-content">
+                  <div className="timeline-modern-date">2020 Juli - Des</div>
+                  <div className="timeline-modern-title">PAID INTERNSHIP (SOFTWARE HOUSE)</div>
+                  <div className="timeline-modern-company">Junior Web Developer – ODOO ERP</div>
+                  <div>Jl Komplek GBA Bojong Soang</div>
+                  <div className="timeline-modern-skills">
+                    <span className="timeline-modern-skill">Junior Web Developer</span>
+                    <span className="timeline-modern-skill">Odoo</span>
+                  </div>
+                </div>
+                <div className="timeline-modern-icon">
+                  <i className="fa fa-briefcase"></i>
+                </div>
+              </div>
+              {/* Item kiri */}
+              <div className="timeline-modern-item left">
+                <div className="timeline-modern-content">
+                  <div className="timeline-modern-date">2021 Feb - Des</div>
+                  <div className="timeline-modern-title">WHOLESALE LACE WAREHOUSE</div>
+                  <div className="timeline-modern-company">Warehouse Staff, Mobile</div>
+                  <div>Jl. H. Haris No.80, RT.2/RW.9, Baros, Kota Cimahi</div>
+                  <div className="timeline-modern-skills">
+                    <span className="timeline-modern-skill">Administration</span>
+                    <span className="timeline-modern-skill">Graphic Design</span>
+                  </div>
+                </div>
+                <div className="timeline-modern-icon">
+                  <i className="fa fa-briefcase"></i>
+                </div>
+              </div>
+              {/* Item kanan */}
+              <div className="timeline-modern-item right">
+                <div className="timeline-modern-content">
+                  <div className="timeline-modern-date">2022 - 2024 jan</div>
+                  <div className="timeline-modern-title">PT. YUNIKO ASIA PRIMA YAP</div>
+                  <div className="timeline-modern-company">Production Administration</div>
+                  <div>Jl Cihaneut No.30 Padaulun, Majalaya, Kab.Bandung</div>
+                  <div className="timeline-modern-skills">
+                    <span className="timeline-modern-skill">Administration</span>
+                    <span className="timeline-modern-skill">Management</span>
+                  </div>
+                </div>
+                <div className="timeline-modern-icon">
+                  <i className="fa fa-briefcase"></i>
+                </div>
+              </div>
+              {/* Item kiri */}
+              <div className="timeline-modern-item left">
+                <div className="timeline-modern-content">
+                  <div className="timeline-modern-date">2024 Feb - Now</div>
+                  <div className="timeline-modern-title">WHOLESALE LACE WAREHOUSE</div>
+                  <div className="timeline-modern-company">Warehouse Staff, Mobile</div>
+                  <div>Jl. H. Haris No.80, RT.2/RW.9, Baros, Kota Cimahi</div>
+                  <div className="timeline-modern-skills">
+                    <span className="timeline-modern-skill">Administration</span>
+                    <span className="timeline-modern-skill">Graphic Design</span>
+                    <span className="timeline-modern-skill">Maklon</span>
+                  </div>
+                </div>
+                <div className="timeline-modern-icon">
+                  <i className="fa fa-briefcase"></i>
+                </div>
+              </div>
+              {/* Tambahkan item berikutnya dengan pola zig-zag */}
+            </div>
+          </div>
+        </section>
       </>
     );
   }
