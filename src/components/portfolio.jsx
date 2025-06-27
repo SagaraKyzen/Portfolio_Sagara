@@ -3,10 +3,10 @@ import React from "react";
 //import stock
 import stock from "../img/image1.png";
 import stock1 from "../img/image2.png";
-import stock2 from "../img/image3.png";
+import stock2 from "../img/image6.png";
 import stock3 from "../img/image3.png";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
+import stock4 from "../img/image4.png";
+import stock5 from "../img/image5.png";
 
 class Portfolio extends React.Component {
   render() {
@@ -212,17 +212,17 @@ class Portfolio extends React.Component {
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock} data-lightbox="gallery-medlingos">
+                  <a href={stock4} data-lightbox="gallery-medlingos">
                     <div className="work-img">
-                      <img src={stock} alt="" className="img-fluid" />
+                      <img src={stock4} alt="" className="img-fluid" />
                     </div>
                     <div className="work-content">
                       <div className="row">
                         <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
+                          <h2 className="w-title">Creative design</h2>
                           <div className="w-more">
                             <span className="w-ctegory">
-                              Bootstrap ReactJS GoogleAPI
+                              Canva, Photoshop
                             </span>
                           </div>
                         </div>
@@ -273,16 +273,16 @@ class Portfolio extends React.Component {
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock} data-lightbox="gallery-smth">
+                  <a href={stock5} data-lightbox="gallery-smth">
                     <div className="work-img">
-                      <img src={stock} alt="" className="img-fluid" />
+                      <img src={stock5} alt="" className="img-fluid" />
                     </div>
                     <div className="work-content">
                       <div className="row">
                         <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
+                          <h2 className="w-title">Nature Photography</h2>
                           <div className="w-more">
-                            <span className="w-ctegory">MERN</span>
+                            <span className="w-ctegory">Camera, Photography</span>
                           </div>
                         </div>
                         <div className="col-sm-4">
@@ -332,14 +332,14 @@ class Portfolio extends React.Component {
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock} data-lightbox="gallery-mf">
+                  <a href={stock2} data-lightbox="gallery-mf">
                     <div className="work-img">
-                      <img src={stock} alt="" className="img-fluid" />
+                      <img src={stock2} alt="" className="img-fluid" />
                     </div>
                     <div className="work-content">
                       <div className="row">
                         <div className="col-sm-8">
-                          <h2 className="w-title">Lorem Ipsum</h2>
+                          <h2 className="w-title">Mk-TechSpark</h2>
                           <div className="w-more">
                             <span className="w-ctegory">
                               HTML5 CSS3 Bootstrap MERN

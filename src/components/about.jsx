@@ -154,6 +154,9 @@ class About extends React.Component {
         </section>
         {/* EXPERIENCE SECTION */}
         <section className="experience-mf sect-pt4">
+        <div id="stars" />
+        <div id="stars2" />
+        <div id="stars3" />
           <div className="container">
             <div className="title-box-2 text-center">
               <h5 className="title-left" style={{ letterSpacing: 2, color: '#fff' }}>EXPERIENCE</h5>
@@ -171,9 +174,7 @@ class About extends React.Component {
                     <span className="timeline-modern-skill">IT Support</span>
                   </div>
                 </div>
-                <div className="timeline-modern-icon">
-                  <i className="fa fa-briefcase"></i>
-                </div>
+               
               </div>
               {/* Item kanan */}
               <div className="timeline-modern-item right">
@@ -187,9 +188,7 @@ class About extends React.Component {
                     <span className="timeline-modern-skill">Odoo</span>
                   </div>
                 </div>
-                <div className="timeline-modern-icon">
-                  <i className="fa fa-briefcase"></i>
-                </div>
+                
               </div>
               {/* Item kiri */}
               <div className="timeline-modern-item left">
@@ -203,9 +202,7 @@ class About extends React.Component {
                     <span className="timeline-modern-skill">Graphic Design</span>
                   </div>
                 </div>
-                <div className="timeline-modern-icon">
-                  <i className="fa fa-briefcase"></i>
-                </div>
+                
               </div>
               {/* Item kanan */}
               <div className="timeline-modern-item right">
@@ -219,9 +216,7 @@ class About extends React.Component {
                     <span className="timeline-modern-skill">Management</span>
                   </div>
                 </div>
-                <div className="timeline-modern-icon">
-                  <i className="fa fa-briefcase"></i>
-                </div>
+                
               </div>
               {/* Item kiri */}
               <div className="timeline-modern-item left">
@@ -236,9 +231,7 @@ class About extends React.Component {
                     <span className="timeline-modern-skill">Maklon</span>
                   </div>
                 </div>
-                <div className="timeline-modern-icon">
-                  <i className="fa fa-briefcase"></i>
-                </div>
+                
               </div>
               {/* Tambahkan item berikutnya dengan pola zig-zag */}
             </div>

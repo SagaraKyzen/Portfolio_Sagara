@@ -3,9 +3,9 @@ import "./stars.scss";
 import imageOverlay from "../img/earth.jpg";
 
 const socials = [
-  { icon: "ion-social-codepen", link: "https://codepen.io/" },
+  { icon: "ion-social-instagram", link: "https://www.instagram.com/moe_rzs/" },
   { icon: "ion-social-github", link: "https://github.com/SagaraKyzen" },
-  { icon: "ion-social-linkedin", link: "https://linkedin.com/in/yourprofile" },
+  { icon: "ion-social-linkedin", link: "https://www.linkedin.com/in/rizky-sagara-1514091b4/" },
 ];
 
 const Contact = () => {
