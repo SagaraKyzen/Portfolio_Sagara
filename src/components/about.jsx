@@ -165,8 +165,8 @@ class About extends React.Component {
               {/* Item kiri */}
               <div className="timeline-modern-item left">
                 <div className="timeline-modern-content">
-                  <div className="timeline-modern-date">2019 April - Sept</div>
-                  <div className="timeline-modern-title">INDUSTRIAL WORK PRACTICES</div>
+                  <div className="timeline-modern-date"><i>2019 April - Sept</i></div>
+                  <div className="timeline-modern-title"><b>INDUSTRIAL WORK PRACTICES</b></div>
                   <div className="timeline-modern-company">PT. Techno Multi Utama & CV. Blessing</div>
                   <div>Jl.Pesantren No.76,Cibabat & Jl Setra Duta K13 A</div>
                   <div className="timeline-modern-skills">
@@ -174,13 +174,12 @@ class About extends React.Component {
                     <span className="timeline-modern-skill">IT Support</span>
                   </div>
                 </div>
-               
               </div>
               {/* Item kanan */}
               <div className="timeline-modern-item right">
                 <div className="timeline-modern-content">
-                  <div className="timeline-modern-date">2020 Juli - Des</div>
-                  <div className="timeline-modern-title">PAID INTERNSHIP (SOFTWARE HOUSE)</div>
+                  <div className="timeline-modern-date"><i>2020 Juli - Des</i></div>
+                  <div className="timeline-modern-title"><b>PAID INTERNSHIP (SOFTWARE HOUSE)</b></div>
                   <div className="timeline-modern-company">Junior Web Developer – ODOO ERP</div>
                   <div>Jl Komplek GBA Bojong Soang</div>
                   <div className="timeline-modern-skills">
@@ -193,8 +192,8 @@ class About extends React.Component {
               {/* Item kiri */}
               <div className="timeline-modern-item left">
                 <div className="timeline-modern-content">
-                  <div className="timeline-modern-date">2021 Feb - Des</div>
-                  <div className="timeline-modern-title">WHOLESALE LACE WAREHOUSE</div>
+                  <div className="timeline-modern-date"><i>2021 Feb - Des</i></div>
+                  <div className="timeline-modern-title"><b>WHOLESALE LACE WAREHOUSE</b></div>
                   <div className="timeline-modern-company">Warehouse Staff, Mobile</div>
                   <div>Jl. H. Haris No.80, RT.2/RW.9, Baros, Kota Cimahi</div>
                   <div className="timeline-modern-skills">
@@ -207,8 +206,8 @@ class About extends React.Component {
               {/* Item kanan */}
               <div className="timeline-modern-item right">
                 <div className="timeline-modern-content">
-                  <div className="timeline-modern-date">2022 - 2024 jan</div>
-                  <div className="timeline-modern-title">PT. YUNIKO ASIA PRIMA YAP</div>
+                  <div className="timeline-modern-date"><i>2022 - 2024 jan</i></div>
+                  <div className="timeline-modern-title"><b>PT. YUNIKO ASIA PRIMA YAP</b></div>
                   <div className="timeline-modern-company">Production Administration</div>
                   <div>Jl Cihaneut No.30 Padaulun, Majalaya, Kab.Bandung</div>
                   <div className="timeline-modern-skills">
@@ -221,8 +220,8 @@ class About extends React.Component {
               {/* Item kiri */}
               <div className="timeline-modern-item left">
                 <div className="timeline-modern-content">
-                  <div className="timeline-modern-date">2024 Feb - Now</div>
-                  <div className="timeline-modern-title">WHOLESALE LACE WAREHOUSE</div>
+                  <div className="timeline-modern-date"><i>2024 Feb - Now</i></div>
+                  <div className="timeline-modern-title"><b>WHOLESALE LACE WAREHOUSE</b></div>
                   <div className="timeline-modern-company">Warehouse Staff, Mobile</div>
                   <div>Jl. H. Haris No.80, RT.2/RW.9, Baros, Kota Cimahi</div>
                   <div className="timeline-modern-skills">
