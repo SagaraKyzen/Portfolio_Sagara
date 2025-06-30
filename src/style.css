@@ -774,7 +774,26 @@ PORTFOLIO
 }
 
 .w-title {
-  font-size: 1.2rem;
+  display: block !important;
+  font-size: 1.1rem;
+  /* Tambahkan styling lain sesuai kebutuhan */
+}
+
+@media (max-width: 576px) {
+  .w-title {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    color: #1e1e1e;
+    background: rgba(255,255,255,0.85); /* Supaya judul tetap terbaca */
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    max-width: 95%;
+    word-break: break-word;
+  }
+  .work-content {
+    padding: 8px 4px 8px 4px;
+  }
 }
 
 /*

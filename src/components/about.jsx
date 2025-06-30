@@ -168,7 +168,7 @@ class About extends React.Component {
                   <div className="timeline-modern-date"><i>2019 April - Sept</i></div>
                   <div className="timeline-modern-title"><b>INDUSTRIAL WORK PRACTICES</b></div>
                   <div className="timeline-modern-company">PT. Techno Multi Utama & CV. Blessing</div>
-                  <div>Jl.Pesantren No.76,Cibabat & Jl Setra Duta K13 A</div>
+                  <div>Jl.Pesantren No.76,Cibabat & Jl SetraDuta K13A</div>
                   <div className="timeline-modern-skills">
                     <span className="timeline-modern-skill">Administration</span>
                     <span className="timeline-modern-skill">IT Support</span>
