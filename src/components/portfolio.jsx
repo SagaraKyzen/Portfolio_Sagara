@@ -29,372 +29,346 @@ class Portfolio extends React.Component {
               <div className="col-md-4">
                 <div className="work-box">
                   <a href={stock} data-lightbox="gallery-vmarine">
-                    <div className="work-img">
-                      <img src={stock} alt="" className="img-fluid" />
-                    </div>
                     <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">OLaundry</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">
-                              HTML5 CSS3 Bootstrap CodeIgniter
-                            </span>
-                          </div>
+                      <h2 className="w-title">OLaundry - Web Application
+                        <div className="work-img">
+                          <img src={stock} alt="" className="img-fluid" />
                         </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
+                      </h2>
+                      <div className="w-more">
+
+                        <span className="w-ctegory">
+                          <span className="timeline-modern-skill">HTML5</span>
+                          <span className="timeline-modern-skill">CSS3</span>
+                          <span className="timeline-modern-skill">Bootstrap</span>
+                          <span className="timeline-modern-skill">PHP</span>
+                          <span className="timeline-modern-skill">CODEIGNITER</span>
+                        </span>
                       </div>
                     </div>
-                  </a>
-                  <a
-                    href={stock1}
-                    data-lightbox="gallery-vmarine"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock2}
-                    data-lightbox="gallery-vmarine"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock3}
-                    data-lightbox="gallery-vmarine"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock4}
-                    data-lightbox="gallery-vmarine"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock5}
-                    data-lightbox="gallery-vmarine"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
+                    <a
+                      href={stock1}
+                      data-lightbox="gallery-vmarine"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock3}
+                      data-lightbox="gallery-vmarine"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock4}
+                      data-lightbox="gallery-vmarine"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock5}
+                      data-lightbox="gallery-vmarine"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock2}
+                      data-lightbox="gallery-vmarine"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
                   </a>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock1} data-lightbox="gallery-aguadeluz">
-                    <div className="work-img">
-                      <img src={stock1} alt="" className="img-fluid" />
-                    </div>
+                  <a href={stock1} data-lightbox="gallery-vmarine">
                     <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">Odoo ERP Training</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">
-                              HTML5 CSS3 XML Odoo10 
-                            </span>{" "}
-                          </div>
+                      <h2 className="w-title">Odoo ERP - Training
+                        <div className="work-img">
+                          <img src={stock1} alt="" className="img-fluid" />
                         </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
+                      </h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          <span className="timeline-modern-skill">PYTHON</span>
+                          <span className="timeline-modern-skill">ODOO</span>
+                          <span className="timeline-modern-skill">XML</span>
+                          <span className="timeline-modern-skill">HTML</span>
+                        </span>
                       </div>
                     </div>
-                  </a>
-                  <a
-                    href={stock1}
-                    data-lightbox="gallery-aguadeluz"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock2}
-                    data-lightbox="gallery-aguadeluz"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock3}
-                    data-lightbox="gallery-aguadeluz"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock4}
-                    data-lightbox="gallery-aguadeluz"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock5}
-                    data-lightbox="gallery-aguadeluz"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
+                    <a
+                      href={stock1}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock3}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock4}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock5}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock2}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
                   </a>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock3} data-lightbox="gallery-todo">
-                    <div className="work-img">
-                      <img src={stock3} alt="" className="img-fluid" />
-                    </div>
+                  <a href={stock3} data-lightbox="gallery-vmarine">
                     <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">System Utilization</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">
-                              Microsoft Excel
-                            </span>
-                            {/*} / <span className="w-date">18 Sep. 2018</span>*/}
-                          </div>
+                      <h2 className="w-title">System Utilization - Production Report
+                        <div className="work-img">
+                          <img src={stock3} alt="" className="img-fluid" />
                         </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
+                      </h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          <span className="timeline-modern-skill">OFFICE</span>
+                          <span className="timeline-modern-skill">EXCEL</span>
+                          <span className="timeline-modern-skill">WORD</span>
+                          {/* <span className="timeline-modern-skill">HTML</span> */}
+                        </span>
                       </div>
                     </div>
-                  </a>
-                  <a
-                    href={stock1}
-                    data-lightbox="gallery-todo"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock2}
-                    data-lightbox="gallery-todo"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock3}
-                    data-lightbox="gallery-todo"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock4}
-                    data-lightbox="gallery-todo"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock5}
-                    data-lightbox="gallery-todo"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
+                    <a
+                      href={stock1}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock3}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock4}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock5}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock2}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
                   </a>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock4} data-lightbox="gallery-medlingos">
-                    <div className="work-img">
-                      <img src={stock4} alt="" className="img-fluid" />
-                    </div>
+                  <a href={stock4} data-lightbox="gallery-vmarine">
                     <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">Creative design</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">
-                              Canva, Photoshop
-                            </span>
-                          </div>
+                      <h2 className="w-title">Creative Design - Comercial Purpose
+                        <div className="work-img">
+                          <img src={stock4} alt="" className="img-fluid" />
                         </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
+                      </h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          <span className="timeline-modern-skill">PHOTOSHOP</span>
+                          <span className="timeline-modern-skill">CANVA</span>
+                          {/* <span className="timeline-modern-skill"></span> */}
+                          {/* <span className="timeline-modern-skill">HTML</span> */}
+                        </span>
                       </div>
                     </div>
-                  </a>
-                  <a
-                    href={stock1}
-                    data-lightbox="gallery-medlingos"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock2}
-                    data-lightbox="gallery-medlingos"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock3}
-                    data-lightbox="gallery-medlingos"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock4}
-                    data-lightbox="gallery-medlingos"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock5}
-                    data-lightbox="gallery-medlingos"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
+                    <a
+                      href={stock1}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock3}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock4}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock5}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock2}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
                   </a>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock5} data-lightbox="gallery-smth">
-                    <div className="work-img">
-                      <img src={stock5} alt="" className="img-fluid" />
-                    </div>
+                  <a href={stock5} data-lightbox="gallery-vmarine">
                     <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">Nature Photography</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">Camera, Photography</span>
-                          </div>
+                      <h2 className="w-title">Nature Photography
+                        <div className="work-img">
+                          <img src={stock5} alt="" className="img-fluid" />
                         </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
+                      </h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          <span className="timeline-modern-skill">CAMERA</span>
+                          <span className="timeline-modern-skill">LIGHTROOM</span>
+                          {/* <span className="timeline-modern-skill"></span> */}
+                          {/* <span className="timeline-modern-skill">HTML</span> */}
+                        </span>
                       </div>
                     </div>
-                  </a>
-                  <a
-                    href={stock1}
-                    data-lightbox="gallery-smth"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock2}
-                    data-lightbox="gallery-smth"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock3}
-                    data-lightbox="gallery-smth"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock4}
-                    data-lightbox="gallery-smth"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock5}
-                    data-lightbox="gallery-smth"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
+                    <a
+                      href={stock1}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock3}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock4}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock5}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock2}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
                   </a>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href={stock2} data-lightbox="gallery-mf">
-                    <div className="work-img">
-                      <img src={stock2} alt="" className="img-fluid" />
-                    </div>
+                  <a href={stock2} data-lightbox="gallery-vmarine">
                     <div className="work-content">
-                      <div className="row">
-                        <div className="col-sm-8">
-                          <h2 className="w-title">Mk-TechSpark</h2>
-                          <div className="w-more">
-                            <span className="w-ctegory">
-                              HTML5 CSS3 Bootstrap MERN
-                            </span>
-                          </div>
+                      <h2 className="w-title">Makna Karya Tech Spark - Landing Page
+                        <div className="work-img">
+                          <img src={stock2} alt="" className="img-fluid" />
                         </div>
-                        <div className="col-sm-4">
-                          <div className="w-like">
-                            <span className="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
+                      </h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          <span className="timeline-modern-skill">HTML5</span>
+                          {/* <span className="timeline-modern-skill">CSS3</span> */}
+                          <span className="timeline-modern-skill">TAILWIND CSS</span>
+                          <span className="timeline-modern-skill">JAVASCRIPT</span>
+                          <span className="timeline-modern-skill">REACT.JS</span>
+                        </span>
                       </div>
                     </div>
-                  </a>
-                  <a
-                    href={stock1}
-                    data-lightbox="gallery-mf"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock2}
-                    data-lightbox="gallery-mf"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock3}
-                    data-lightbox="gallery-mf"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock4}
-                    data-lightbox="gallery-mf"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
-                  </a>
-                  <a
-                    href={stock5}
-                    data-lightbox="gallery-mf"
-                    style={{ display: "none" }}
-                  >
-                    jsx-a11y/anchor-has-content warning
+                    <a
+                      href={stock1}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock3}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock4}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock5}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
+                    <a
+                      href={stock2}
+                      data-lightbox="gallery-aguadeluz"
+                      style={{ display: "none" }}
+                    >
+                      jsx-a11y/anchor-has-content warning
+                    </a>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        
+
       </>
     );
   }

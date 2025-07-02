@@ -711,8 +711,9 @@ PORTFOLIO
 .work-img {
   display: block;
   overflow: hidden;
+  margin-top: 5px;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  
   background: #eee;
   flex-shrink: 0;
 }
@@ -734,13 +735,7 @@ PORTFOLIO
 
 /* Responsive untuk mobile */
 @media (max-width: 767px) {
-  .work-box {
-    height: 250px;
-    margin-bottom: 18px;
-  }
-  .work-img {
-    aspect-ratio: 16 / 10;
-  }
+  
   .work-content {
     padding: 10px 8px;
   }
@@ -773,6 +768,8 @@ PORTFOLIO
   font-size: .7rem;
 }
 
+
+
 .w-title {
   display: block !important;
   font-size: 1.1rem;
@@ -781,18 +778,14 @@ PORTFOLIO
 
 @media (max-width: 576px) {
   .w-title {
-    font-size: 1.1rem;
-    margin-top: 8px;
-    color: #1e1e1e;
-    background: rgba(255,255,255,0.85); /* Supaya judul tetap terbaca */
-    padding: 2px 8px;
-    border-radius: 4px;
-    display: inline-block;
-    max-width: 95%;
-    word-break: break-word;
-  }
-  .work-content {
-    padding: 8px 4px 8px 4px;
+    font-size: 1.1rem !important;
+    color: #1e1e1e !important;
+    background: rgba(255,255,255,0.85) !important;
+    
+    border-radius: 4px !important;
+    display: inline-block !important;
+    max-width: 95% !important;
+    word-break: break-word !important;
   }
 }
 
