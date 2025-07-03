@@ -369,6 +369,60 @@ class Portfolio extends React.Component {
           </div>
         </section>
 
+        {/* Training & Certification Section */}
+        <section id="training" className="training-mf sect-pt4 route">
+          <div className="container">
+            <div className="title-box text-center">
+              <h3 className="title-a">Training & Certification</h3>
+              <p className="subtitle-a">
+                Certificates and training that I have attended to improve my professional competence.
+              </p>
+              
+            </div>
+            <div className="row">
+              {[
+                {
+                  title: "Junior Web Developer",
+                  provider: "POLBAN | BNSP",
+                  date: "2020",
+                  certificate: "https://www.dicoding.com/cert/XXXXXX"
+                },
+                {
+                  title: "SHEET METAL MANUFACTURING",
+                  provider: "BLK | BNSP",
+                  date: "2021",
+                  certificate: "https://aws.amazon.com/certification/"
+                },
+                {
+                  title: "DIGITAL MARKETING",
+                  provider: "SIDNET | BNSP",
+                  date: "2024",
+                  certificate: "#"
+                }
+              ].map((item, idx) => (
+                <div className="col-md-4" key={idx}>
+                  <div className="training-box">
+                    <h4 style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>{item.title}</h4>
+                    <div style={{ color: "#0078ff", fontWeight: 600, marginBottom: 6 }}>{item.provider}</div>
+                    <div style={{ color: "#6b7280", fontSize: 15, marginBottom: 10 }}>{item.date}</div>
+                    <a href={item.certificate} target="_blank" rel="noopener noreferrer" style={{
+                      color: "#fff",
+                      background: "#0078ff",
+                      borderRadius: 6,
+                      padding: "4px 16px",
+                      fontWeight: 600,
+                      fontSize: 15,
+                      textDecoration: "none"
+                    }}>
+                      Lihat Sertifikat
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
       </>
     );
   }

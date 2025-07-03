@@ -159,7 +159,8 @@ class About extends React.Component {
         <div id="stars3" />
           <div className="container">
             <div className="title-box-2 text-center">
-              <h5 className="title-left" style={{ letterSpacing: 2, color: '#fff' }}>EXPERIENCE</h5>
+              <h5 h3 className="title-a" style={{ letterSpacing: 2, color: '#fff' }}>EXPERIENCE</h5>
+            <div className="line-mf"></div>
             </div>
             <div className="timeline-modern">
               {/* Item kiri */}
