@@ -382,30 +382,31 @@ class Portfolio extends React.Component {
             <div className="row">
               {[
                 {
-                  title: "Junior Web Developer",
+                  title: "JUNIOR WEB DEVELOPER",
                   provider: "POLBAN | BNSP",
-                  date: "2020",
-                  certificate: "https://www.dicoding.com/cert/XXXXXX"
+                  date: "2020 | Computer Professional Certification Institute",
+                  certificate: "NO. REG. ICT 294 00013069 2020"
                 },
                 {
                   title: "SHEET METAL MANUFACTURING",
-                  provider: "BLK | BNSP",
-                  date: "2021",
-                  certificate: "https://aws.amazon.com/certification/"
+                  provider: "BBPLK | BNSP",
+                  date: "2021 | Professional Certification Body BBPLK Bandung",
+                  certificate: "NO. REG. LOG 638 00088 2021"
                 },
                 {
                   title: "DIGITAL MARKETING",
                   provider: "SIDNET | BNSP",
-                  date: "2024",
-                  certificate: "#"
+                  date: "2024 | Professional Certification Body Technology of Digital",
+                  certificate: "NO. REG. TIK 1565 02269 2024"
                 }
+                
               ].map((item, idx) => (
                 <div className="col-md-4" key={idx}>
                   <div className="training-box">
                     <h4 style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>{item.title}</h4>
                     <div style={{ color: "#0078ff", fontWeight: 600, marginBottom: 6 }}>{item.provider}</div>
                     <div style={{ color: "#6b7280", fontSize: 15, marginBottom: 10 }}>{item.date}</div>
-                    <a href={item.certificate} target="_blank" rel="noopener noreferrer" style={{
+                    <a target="_blank" rel="noopener noreferrer" style={{
                       color: "#fff",
                       background: "#0078ff",
                       borderRadius: 6,
@@ -414,7 +415,7 @@ class Portfolio extends React.Component {
                       fontSize: 15,
                       textDecoration: "none"
                     }}>
-                      Lihat Sertifikat
+                      {item.certificate}
                     </a>
                   </div>
                 </div>
