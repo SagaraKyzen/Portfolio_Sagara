@@ -406,7 +406,7 @@ class Portfolio extends React.Component {
                     <h4 style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>{item.title}</h4>
                     <div style={{ color: "#0078ff", fontWeight: 600, marginBottom: 6 }}>{item.provider}</div>
                     <div style={{ color: "#6b7280", fontSize: 15, marginBottom: 10 }}>{item.date}</div>
-                    <a target="_blank" rel="noopener noreferrer" style={{
+                    <a href="#" target="_blank" rel="noopener noreferrer" style={{
                       color: "#fff",
                       background: "#0078ff",
                       borderRadius: 6,
